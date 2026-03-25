@@ -16,14 +16,9 @@ class _HomeIosState extends State<HomeIos> {
   late final List<String> icons = Platform.isAndroid
       ? ['defaultIcon', 'secondIcon','thirdIcon']
       : [
-          'AppIconBlue',
-          'AppIconGreen',
-          'AppIcon',
-          'AppIconOrange',
-          'AppIconPink',
-          'AppIconPurple',
-          'AppIconTeal',
-          'AppIconYellow',
+          'ic_launcher_one',
+          'ic_launcher_two',
+          'ic_launcher_three'
         ];
 
   // !! Not this naming convention AppIcon-Blue
